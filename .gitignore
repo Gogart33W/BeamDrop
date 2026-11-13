@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production builds
+dist/
+client/dist/
+server/dist/
+
+# Compiled binaries & local launchers
+*.exe
+*.bat
+*.cmd
+*.ps1
+bin/
+desktop/bin/
+desktop/obj/
+
+# Local browser & environment profiles
+.app-profile/
+.profile/
+.env
+.env.local
+.env.*.local
+
+# Testing & logs
+test-results/
+playwright-report/
+blob-report/
+.system_generated/
+*.log
+*.err
+device.*
+
+# Local machine configs
+beamdrop.config.json
